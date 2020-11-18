@@ -1,0 +1,24 @@
+{
+  "name": "homework-9",
+  "version": "1.0.0",
+  "description": "Homework-9",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "uninstall-package": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martank949/Homework-9.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martank949/Homework-9/issues"
+  },
+  "homepage": "https://github.com/Martank949/Homework-9#readme"
+}
