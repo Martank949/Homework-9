@@ -76,7 +76,14 @@ function handlePromise(response) {
 6. License
 7. GitHub User
 8. Contact Information
- 
+
+## GitHub Username:
+${response.userGithub}
+GitHub page at the following Link: [GitHub](https://github.com/${response.userGithub})
+
+## Email Address:
+${response.userEmail}
+
 ## Description of my Project:
 ${response.description}
 
@@ -96,12 +103,7 @@ ${response.testInstructions}
 For more information about the license, please click on the link below:
 [License](https://opensource.org/licenses/${response.stack})
 
-## GitHub Username:
-${response.userGithub}
-GitHub page at the following Link: [GitHub](https://github.com/${response.userGithub})
 
-## Email Address:
-${response.userEmail}
 
 `
 
