@@ -20,18 +20,27 @@ martinzb949@gmail.com
 
 ## Description of my Project:
 Every good project needs a quality README with information about the app - 
+what the app is for, how to use the app, how to install it, how to report issues, 
+and how to make contributions so that other developers are more likely 
+to use and contribute to the success of the project.
 
 ## Installation Instructions:
 To generate your own README, first run npm install in order to install the following npm package 
-
-## Usage Information:
 dependencies as specified in the package.json. The application itself can be invoked with node index.js.
 
-## Contribution Guidelines:
-Fork it!Create your feature branch: git checkout -b my-new-feature.Commit your changes: git commit -am 'Add some features'.Push to the branch: git push origin my-new-feature.
+## Usage Information:
+When you run node index.js, the application uses the inquirer package to prompt you 
+in the command line with a series of questions about your GitHub and about your project.
+fs.writeFile is used to generate your project's README.md file. 
 
+## Contribution Guidelines:
+1. Fork it!
+2. Create your feature branch: git checkout -b my-new-feature.
+3. Commit your changes: git commit -am 'Add some features'.
+4. Push to the branch: git push origin my-new-feature.
+5. Submit a pull request.
 ## Test Instructions:
-Submit a pull requestCheck out the ExampleREADME.md in this repo as an example.
+Check out the ExampleREADME.md in this repo as an example.
 
 ## License:
 For more information about the license, please click on the link below:
