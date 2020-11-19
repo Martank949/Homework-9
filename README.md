@@ -16,6 +16,4 @@ SO then I created a professional README for any new project
 
 1) This is a custom application that will receive the users input to create a professional grade README to use on any project. 
 
-2) This application only works (at the moment) with the users Geo location. If the user denies access, the application will not work
-
-3) If you click on the temperatures they will change from celsius to fahrenheit
+2) This application only works using Node.js.
